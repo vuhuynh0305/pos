@@ -645,18 +645,18 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 70px 0 30px;
 }
 
-    #feature_services #services #servicesCarousel .ft-image {
+    #feature_services #servicesCarousel .ft-image {
         min-height: 443px;
     }
 
-    #feature_services #services #servicesCarousel .services-detail-wrapper {
+    #feature_services #servicesCarousel .services-detail-wrapper {
         border: 1px solid #e21a2d;
         border-top: 0;
         color: #56555b;
         cursor: pointer;
     }
 
-        #feature_services #services #servicesCarousel .services-detail-wrapper h4 {
+        #feature_services #servicesCarousel .services-detail-wrapper h4 {
             margin: 0;
             padding-top: 15px;
             padding-bottom: 15px;
@@ -664,19 +664,19 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
             font-size: 14px;
         }
 
-        #feature_services #services #servicesCarousel .services-detail-wrapper p {
+        #feature_services #servicesCarousel .services-detail-wrapper p {
             font-size: 24px;
             padding: 0 35px;
         }
 
-    #feature_services #services #servicesCarousel .item:hover > .services-detail-wrapper {
+    #feature_services #servicesCarousel .item:hover > .services-detail-wrapper {
         border: 1px solid #ffd503;
         background-color: #ffd503;
         border-top: 0;
         color: #fff;
     }
 
-        #feature_services #services #servicesCarousel .item:hover > .services-detail-wrapper h4 {
+        #feature_services #servicesCarousel .item:hover > .services-detail-wrapper h4 {
             color: #fff;
         }
 
