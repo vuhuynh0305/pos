@@ -178,10 +178,11 @@ function slideBanner() {
 
 function slideService() {
     $('#servicesCarousel').owlCarousel({
-            nav: true,
-            smartSpeed: 200,
-            slideSpeed: 500,
-            margin: 5,
+        dots: false,
+        nav: true,
+        smartSpeed: 200,
+        slideSpeed: 500,
+        margin: 5,
         responsive: {
             0: {
                 items: 1
@@ -194,7 +195,7 @@ function slideService() {
             }
         },
         responsiveRefreshRate: 100,
-         navText: ['<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>', '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>']
+        navText: ['<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>', '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>']
     })
 }
 
