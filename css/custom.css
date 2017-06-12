@@ -220,6 +220,18 @@ nav.navbar.bootsnav {
     width: 100%;
     border-bottom: 5px solid #e21a2d;
 }
+
+nav.navbar.bootsnav .container, nav.navbar.bootsnav .container .attr-nav{
+    height: inherit;
+}
+
+nav.navbar.bootsnav .container .attr-nav ul{
+        display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    height: inherit;
+}
+
 nav.navbar.bootsnav ul.nav > li > a {
     color: #fff;
 }
@@ -780,9 +792,16 @@ footer::after {
     }
 
     .footer_item .social-icon-wrapper a {
-        width: 20%;
-        float: left;
-        padding-right: 5px;
+                width: 40px;
+    float: left;
+    margin-right: 5px;
+    background-color: #ffd503;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #222222;
     }
 
     .footer_item .footer-contact-wrapper a {
