@@ -249,7 +249,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     float: right;
 }
 
-.search {
+.searchArea {
     width: 400px;
 }
 
@@ -1065,8 +1065,51 @@ footer::after {
         width: 40%;
         text-align: right;
     }
+    .list-inline.top-menu-tab {
+        float: none;
+    }
+    .list-inline.top-menu-tab li {
+        width: 32.33%;
+    }
+    nav.navbar.bootsnav {
+        height: 100px;
+        max-height: 100px;
+    }
+    nav.navbar.bootsnav .attr-nav .searchArea{
+        width: 400px;
+    }
+    nav.navbar.bootsnav .attr-nav .searchArea button{
+        background: none;
+        border: 0;
+        font-size: 25px;
+    }
     nav.navbar.bootsnav .navbar-toggle {
         margin-left: 15px;
+    }
+    nav.navbar.bootsnav .navbar-header {
+        text-align: left;
+    }
+    nav.navbar.bootsnav .navbar-brand {
+        width: 30%;
+    }
+    nav.navbar.bootsnav .top-search{
+        background-color: #fff;
+    }
+
+    nav.navbar.bootsnav .top-search input.form-control {
+        border: 1px solid #ccc;
+        border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    }
+    nav.navbar.bootsnav .top-search button {
+        font-size: 22px;
+        background-color: #e21a2d;
+        border: 0;
+        height: 40px;
+        color: #fff;
+        border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 0 25px;
     }
     .carousel-caption {
         top: 20px;
@@ -1121,6 +1164,11 @@ footer::after {
       align-item: center;
       justify-content: space-between; 
 	}
+
+    #portfolio #filters > button {
+        padding: 25px 65px;
+            border-radius: 50px;
+    }
 }
 
 @media (max-width: 479px) {
