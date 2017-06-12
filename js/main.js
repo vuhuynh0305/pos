@@ -1,9 +1,9 @@
 "use strict";
 jQuery(document).ready(function ($) {
 
-//==========================================
-// MOBAILE MENU
-//=========================================
+    //==========================================
+    // MOBAILE MENU
+    //=========================================
 
     $('#navbar-menu').find('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -22,9 +22,9 @@ jQuery(document).ready(function ($) {
     });
 
 
-//==========================================
-//ScrollUp
-//=========================================
+    //==========================================
+    //ScrollUp
+    //=========================================
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600) {
@@ -35,23 +35,23 @@ jQuery(document).ready(function ($) {
     });
 
     $('#scrollUp').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
+        $("html, body").animate({ scrollTop: 0 }, 1000);
         return false;
     });
 
 
 
-//==========================================
-// For fancybox active
-//=========================================
+    //==========================================
+    // For fancybox active
+    //=========================================
 
     $('.fancybox').fancybox();
-    
-    
 
-//==========================================
-// Loading
-//=========================================
+
+
+    //==========================================
+    // Loading
+    //=========================================
 
     $(window).load(function () {
         $("#loading").fadeOut(500);
@@ -81,6 +81,7 @@ $(document).ready(function () {
     }
 
     slideBanner();
+    slideService();
 });
 
 function slideBanner() {
@@ -175,7 +176,29 @@ function slideBanner() {
     });
 }
 
-$('#searchIcon').on('click', function(){
+function slideService() {
+    $('#servicesCarousel').owlCarousel({
+            nav: true,
+            smartSpeed: 200,
+            slideSpeed: 500,
+            margin: 5,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        },
+        responsiveRefreshRate: 100,
+         navText: ['<i class="fa fa-angle-left fa-3x" aria-hidden="true"></i>', '<i class="fa fa-angle-right fa-3x" aria-hidden="true"></i>']
+    })
+}
+
+$('#searchIcon').on('click', function () {
     $('.searchBar').toggle();
 })
 

@@ -1,528 +1,589 @@
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>Construction - Free HTML Bootstrap Template</title>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <!-- Custom Fonts -->
-        <link rel="stylesheet" href="custom-font/fonts.css" />
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
-        <!--owl-carousel-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-        <!-- Bootsnav -->
-        <link rel="stylesheet" href="css/bootsnav.css">
-        <!-- Fancybox -->
-        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />	
-        <!-- Custom stylesheet -->
-        <link rel="stylesheet" href="css/custom.css" />
-        <!--[if lt IE 9]>
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Construction - Free HTML Bootstrap Template</title>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="custom-font/fonts.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <!--owl-carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Bootsnav -->
+    <link rel="stylesheet" href="css/bootsnav.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    </head>
-    <body>
+</head>
 
-        <!-- Preloader -->
+<body>
 
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
-                    <div class="object"></div>
+    <!-- Preloader -->
+
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+                <div class="object"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--End off Preloader -->
+
+    <!-- Header -->
+    <header>
+        <!-- Top Navbar -->
+        <div class="top_nav">
+            <div class="container" id="top_nav  ">
+                <ul class="list-inline top-menu-tab">
+                    <li class="active"><a href="">home</a></li>
+                    <li class="item"><a href="#">products</a></li>
+                    <li class="item"><a href="#">services</a></li>
+                </ul>
+                <ul class="list-inline info">
+                    <li><a href="#"><span class="fa fa-phone"></span> 1234 - 5678 - 9012</a></li>
+                    <li><a href="#"><span class="fa fa-envelope"></span> support@pos.com.my</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- Top Navbar end -->
+
+        <!-- Navbar -->
+        <nav class="navbar bootsnav">
+            <div class="container">
+                <!-- Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                        <!--<li class="search"><a href="#"><i class="fa fa-search"></i></a></li>-->
+                        <li class='search'>
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Type your keywords..." />
+                                    <div class="input-group-btn">
+                                        <button type="button">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#"><img src="images/icon/shop.png"></a></li>
+                    </ul>
+                </div>
+                <!-- Header Navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=""><img class="logo" src="images/logo.png" alt=""></a>
+                </div>
+                <!-- Navigation -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav menu">
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+    </header>
+    <!-- Header end -->
+
+
+    <section id="home" class="home">
+        <!-- Carousel -->
+        <div id="myCarousel">
+            <div class="carousel-inner owl-carousel owl-theme" id="slider-larger" data-interval='4000'>
+                <div class="item">
+                    <img src="images/banner/banner_01.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_02.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_03.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_04.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_05.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_01.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_02.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/banner/banner_03.png">
+                    <div class="banner_hover_area"></div>
+                    <div class="carousel-caption">
+                        <h1>Your National Courier</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <!--End off Preloader -->
-
-        <!-- Header -->
-        <header>
-            <!-- Top Navbar -->
-            <div class="top_nav">
-                <div class="container" id="top_nav  ">
-                <ul class="list-inline top-menu-tab">
-                        <li class="active"><a href="">home</a></li>
-                        <li class="item"><a href="#">products</a></li>
-                        <li class="item"><a href="#">services</a></li>
-                    </ul>   
-                    <ul class="list-inline info">
-                        <li><a href="#"><span class="fa fa-phone"></span> 1234 - 5678 - 9012</a></li>
-                        <li><a href="#"><span class="fa fa-envelope"></span> support@pos.com.my</a></li>
-                    </ul>
-                    		
+        <div class="">
+            <div id="detail">
+                <div class="owl-carousel owl-theme" id="slider-thumb">
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <small>Last Week</small>
+                            <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
+                        </div>
+                    </div>
                 </div>
-            </div><!-- Top Navbar end -->
-
-            <!-- Navbar -->
-            <nav class="navbar bootsnav">
-                <div class="container">
-                    <!-- Atribute Navigation -->
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- Header Navigation -->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href=""><img class="logo" src="images/logo.png" alt=""></a>
-                    </div>
-                    <!-- Navigation -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav menu">
-                           
-                        </ul>
-                    </div>
-                </div>   
-            </nav><!-- Navbar end -->
-        </header><!-- Header end -->
-
-
-        <section id="home" class="home">
-            <!-- Carousel -->
-            <div id="myCarousel">
-                    <div class="carousel-inner owl-carousel owl-theme" id="slider-larger" data-interval='4000'>
-                        <div class="item">
-                            <img src="images/banner/banner_01.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
-                                    </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_02.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_03.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                    aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_04.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                    aliquyam erat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_05.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_01.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Our extensive delivery network and services will fulfill your courier needs within Malaysia and beyond
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_02.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                    aliquyam.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="images/banner/banner_03.png">
-                            <div class="banner_hover_area"></div>
-                            <div class="carousel-caption">
-                                <h1>Your National Courier</h1>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                                    aliquyam erat.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <!--<a class="left carousel-control" href="#detail" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>-->
+                <!--<a class="right carousel-control" href="#detail" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>-->
             </div>
-             <div class="">
-                <div id="detail">
-                    <div class="owl-carousel owl-theme" id="slider-thumb">
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div>
-                                <small>Last Week</small>
-                                <h4>FEEL-GOOD QUALITY WORKSPACE</h4>
-                            </div>
-                        </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container portfolio_area text-center">
+            <h2>Feature Products</h2>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+            <div id="filters">
+                <button class="button is-checked" data-filter="*">Show All</button>
+                <button class="button" data-filter=".buildings">Gallery 01</button>
+                <button class="button" data-filter=".interior">Gallery 02</button>
+                <button class="button" data-filter=".isolation">Gallery 03</button>
+                <button class="button" data-filter=".plumbing">Gallery 04</button>
+            </div>
+            <!-- Portfolio grid -->
+            <div class="grid">
+                <div class="grid-sizer"></div>
+                <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
+                    <img alt="" src="images/product/image-1.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
                     </div>
-                    <!--<a class="left carousel-control" href="#detail" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>-->
-                    <!--<a class="right carousel-control" href="#detail" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>-->
+                </div>
+
+                <div class="grid-item buildings interior isolation">
+                    <img alt="" src="images/product/image-2.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-2.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+
+                    </div>
+                </div>
+
+                <div class="grid-item interior plumbing isolation">
+                    <img alt="" src="images/product/image-3.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+
+                    </div>
+                </div>
+
+                <div class="grid-item isolation buildings">
+                    <img alt="" src="images/product/image-5.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-5.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
+                </div>
+
+                <div class="grid-item plumbing isolation">
+                    <img alt="" src="images/product/image-6.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-6.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
+                </div>
+                <div class="grid-item isolation buildings">
+                    <img alt="" src="images/product/image-7.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-7.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
+                </div>
+
+                <div class="grid-item plumbing isolation">
+                    <img alt="" src="images/product/image-3.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
+                </div>
+                <div class="grid-item buildings interior isolation">
+                    <img alt="" src="images/product/image-2.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-2.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
+                </div>
+
+                <div class="grid-item interior plumbing isolation">
+                    <img alt="" src="images/product/image-3.png">
+                    <div class="portfolio_hover_area">
+                        <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
+                        <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                        <a href="#"><span class="fa fa-heart-o"></span></a>
+                        <a href="#"><span class="fa fa-exchange"></span></a>
+                    </div>
                 </div>
             </div>
+            <!-- Portfolio grid end -->
+        </div>
+    </section>
+    <!-- Portfolio end -->
 
-        </section>
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="container text-center testimonial_area">
+            <h2>Feature News</h2>
+            <p class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
 
-        <!-- Portfolio -->
-        <section id="portfolio">
-            <div class="container portfolio_area text-center">
-                <h2>Feature Products</h2>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-
-                <div id="filters">
-                    <button class="button is-checked" data-filter="*">Show All</button>
-                    <button class="button" data-filter=".buildings">Gallery 01</button>
-                    <button class="button" data-filter=".interior">Gallery 02</button>
-                    <button class="button" data-filter=".isolation">Gallery 03</button>
-                    <button class="button" data-filter=".plumbing">Gallery 04</button>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial_item">
+                        <div class="testimonial_content text-left">
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Portfolio grid -->		
-                <div class="grid">
-                    <div class="grid-sizer"></div>
-                    <div class="grid-item grid-item--width2 grid-item--height2 buildings plumbing interior">
-                        <img alt="" src="images/product/image-1.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-1.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-
-                    <div class="grid-item buildings interior isolation">
-                        <img alt="" src="images/product/image-2.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-2.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-
-                        </div>   
-                    </div>
-
-                    <div class="grid-item interior plumbing isolation">
-                        <img alt="" src="images/product/image-3.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-
-                        </div>  
-                    </div>
-
-                    <div class="grid-item isolation buildings">
-                        <img alt="" src="images/product/image-5.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-5.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-
-                    <div class="grid-item plumbing isolation">
-                        <img alt="" src="images/product/image-6.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-6.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-                     <div class="grid-item isolation buildings">
-                        <img alt="" src="images/product/image-7.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-7.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-
-                    <div class="grid-item plumbing isolation">
-                        <img alt="" src="images/product/image-3.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-                   <div class="grid-item buildings interior isolation">
-                        <img alt="" src="images/product/image-2.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-2.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>   
-                    </div>
-
-                    <div class="grid-item interior plumbing isolation">
-                        <img alt="" src="images/product/image-3.png" >
-                        <div class="portfolio_hover_area">
-                            <a class="fancybox" href="images/product/image-3.png" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><span class="fa fa-search"></span></a>
-                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
-                            <a href="#"><span class="fa fa-heart-o"></span></a>
-                            <a href="#"><span class="fa fa-exchange"></span></a>
-                        </div>  
-                    </div>
-                </div><!-- Portfolio grid end -->
-            </div>
-        </section><!-- Portfolio end -->
-
-        <!-- Testimonial -->
-        <section id="testimonial">
-            <div class="container text-center testimonial_area">
-                <h2>Feature News</h2>
-                <p class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="testimonial_item">
-                            <div class="testimonial_content text-left">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            </div>
+                <div class="col-md-4">
+                    <div class="testimonial_item">
+                        <div class="testimonial_content">
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="testimonial_item">
-                            <div class="testimonial_content">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="testimonial_item">
-                            <div class="testimonial_content">
-                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
-                            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial_item">
+                        <div class="testimonial_content">
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                                magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
+                                ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section><!-- Testimonial end -->
-        <section id="feature_services">
-            <div class="container text-center testimonial_area">
-                <h2>Feature News</h2>
-                <p class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+    </section>
+    <!-- Testimonial end -->
+    <section id="feature_services">
+        <div class="container text-center testimonial_area">
+            <h2>Feature News</h2>
+            <p class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
 
-                <div class="feature-content row">
-                    <div id="featureCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_01.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Make your workspace stay clean</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_02.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Make your workspace stay clean</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_03.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Make your workspace stay clean</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_01.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Make your workspace stay clean</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_02.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Set ut perspiciatis unde omnis iste natus</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                    <div class="ft-image">
-                                        <a href="#"><img src="images/services/feature_service_03.png" class="img-responsive"></a>
-                                    </div>
-                                    <div class="services-detail-wrapper">
-                                        <h4>CLEANESS</h4>
-                                        <p>Make your workspace stay clean</p>
-                                    </div>
-                                </div>
-                            </div>
+            <div id="services">
+                <div class="owl-carousel owl-theme" id="servicesCarousel">
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_01.png" class="img-responsive"></a>
                         </div>
-                        <a class="left carousel-control" href="#featureCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="right carousel-control" href="#featureCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-        <!-- Contact form -->
-        <section id="contact_form">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h2>
-                    </div>
-                    <form role="form" class="form-inline text-right col-md-6" >
-                        <div class="form-group">
-                            <textarea class="form-control" rows="5" id="msg" placeholder="Your Email"></textarea>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Make your workspace stay clean</p>
                         </div>
-                        <button type="submit" class="btn submit_btn">Subscribe</button>
-                    </form>				
+                    </div>
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_02.png" class="img-responsive"></a>
+                        </div>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Make your workspace stay clean</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_03.png" class="img-responsive"></a>
+                        </div>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Make your workspace stay clean</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_01.png" class="img-responsive"></a>
+                        </div>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Make your workspace stay clean</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_02.png" class="img-responsive"></a>
+                        </div>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Set ut perspiciatis unde omnis iste natus</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="ft-image">
+                            <a href="#"><img src="images/services/feature_service_03.png" class="img-responsive"></a>
+                        </div>
+                        <div class="services-detail-wrapper">
+                            <h4>CLEANESS</h4>
+                            <p>Make your workspace stay clean</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section><!-- Contact form end -->
+        </div>
+    </section>
+    <!-- Contact form -->
+    <section id="contact_form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h2>
+                </div>
+                <form role="form" class="form-inline text-right col-md-6">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="msg" placeholder="Your Email"></textarea>
+                    </div>
+                    <button type="submit" class="btn submit_btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact form end -->
 
-        <!-- Footer -->
-        <footer>
-            <!-- Footer top -->
-            <div class="container footer_top">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-7">
-                        <div class="footer_item">
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-sm-5">
-                        <div class="footer_item">
-                           
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-7">
-                        <div class="footer_item">
-                            
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-5">
-                        <div class="footer_item">
-                            
+    <!-- Footer -->
+    <footer>
+        <!-- Footer top -->
+        <div class="container footer_top">
+            <div class="row">
+                <div class="col-lg-3 col-sm-7">
+                    <div class="footer_item">
+                        <p class="footer-category">INFORMATION</p>
+                        <div class="page-map">
+                            <a href="" class="footer-content">Sitemap</a>
+                            <a href="" class="footer-content">Shipping & Returns</a>
+                            <a href="" class="footer-content">Privacy notice</a>
+                            <a href="" class="footer-content">Conditions of Use</a>
+                            <a href="" class="footer-content">About us</a>
                         </div>
                     </div>
                 </div>
-            </div><!-- Footer top end -->
-        </footer><!-- Footer end -->
+                <div class="col-lg-3 col-sm-5">
+                    <div class="footer_item">
+                        <p class="footer-category">CUSTOMER SERVICE</p>
+                        <div class="page-map">
+                            <a href="" class="footer-content">Search</a>
+                            <a href="" class="footer-content">News</a>
+                            <a href="" class="footer-content">Blog</a>
+                            <a href="" class="footer-content">Recently viewed products</a>
+                            <a href="" class="footer-content">Compare product list</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-7">
+                    <div class="footer_item">
+                        <p class="footer-category">MY ACCOUNT</p>
+                        <div class="page-map">
+                            <a href="" class="footer-content">My account</a>
+                            <a href="" class="footer-content">Orders</a>
+                            <a href="" class="footer-content">Addresses</a>
+                            <a href="" class="footer-content">Shopping card</a>
+                            <a href="" class="footer-content">Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-5">
+                    <div class="footer_item">
+                        <p class="footer-category">FOLLOW US</p>
+                        <div class="social-icon-wrapper">
+                            <a href="#">
+                                <img src="images/icon/fb.png" alt="Facebook" class="social-icon" />
+                            </a>
+                            <a href="#">
+                                <img src="images/icon/tw.png" alt="Twitter" class="social-icon" />
+                            </a>
+                            <a href="#">
+                                <img src="images/icon/rss.png" alt="RSS" class="social-icon" />
+                            </a>
+                            <a href="#">
+                                <img src="images/icon/yt.png" alt="Youtube" class="social-icon" />
+                            </a>
+                            <a href="#">
+                                <img src="images/icon/ggplus.png" alt="Google Plus" class="social-icon" />
+                            </a>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="footer-category contact-us">CONTACT US</p>
+                        <div class="footer-contact-wrapper">
+                            <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> +60 123 572</a>
+                            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> abc@pos.com. my</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer top end -->
+    </footer>
+    <!-- Footer end -->
 
-        <!-- JavaScript -->
-        <script src="js/jquery-1.12.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-        <!-- Bootsnav js -->
-        <script src="js/bootsnav.js"></script>
+    <!-- Bootsnav js -->
+    <script src="js/bootsnav.js"></script>
 
-        <!-- JS Implementing Plugins -->
-        <script src="js/isotope.js"></script>
-        <script src="js/isotope-active.js"></script>
-        <script src="js/jquery.fancybox.js?v=2.1.5"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="js/isotope.js"></script>
+    <script src="js/isotope-active.js"></script>
+    <script src="js/jquery.fancybox.js?v=2.1.5"></script>
 
-        <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
-        <script src="js/main.js"></script>
-    </body>	
-</html>	
+    <script src="js/main.js"></script>
+</body>
+
+</html>
