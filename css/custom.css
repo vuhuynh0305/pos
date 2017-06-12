@@ -253,11 +253,11 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     width: 400px;
 }
 
-    .search form {
+    .searchArea form {
         padding: 28px 15px;
     }
 
-        .search form div input {
+        .searchArea form div input {
             text-indent: 50px;
             width: 100%;
             height: inherit;
@@ -268,7 +268,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
             height: 40px;
         }
 
-        .search form div button {
+        .searchArea form div button {
             width: 50px;
             height: 40px;
             border-top-right-radius: 100px;
@@ -639,6 +639,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 /* Feature Services */
 #feature_services{
     position: relative;
+}
+
+#feature_services .testimonial_area h2 {
+    margin: 70px 0 30px;
 }
 
     #feature_services #services #servicesCarousel .ft-image {
@@ -1142,6 +1146,10 @@ footer::after {
         margin-bottom: 80px;
     }
 
+    #contact_form .container {
+        padding: 20px 30px;
+    }
+
     #contact_form h2 {
         margin-top: 10px;
     }
@@ -1168,6 +1176,7 @@ footer::after {
     #portfolio #filters > button {
         padding: 25px 65px;
             border-radius: 50px;
+            font-size: 25px;
     }
 }
 
